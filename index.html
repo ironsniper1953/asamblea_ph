@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Propietarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+</head>
+<body>
+    <h1>Registro de Propietarios</h1>
+    
+    <form id="registroForm">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="text" id="apartamento" placeholder="Número de apartamento" required>
+        <input type="email" id="email" placeholder="Correo electrónico">
+        <button type="submit">Registrar</button>
+    </form>
+
+    <div id="qrContainer"></div>
+    <h2>Asistencia en Vivo</h2>
+    <ul id="asistenciaList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
